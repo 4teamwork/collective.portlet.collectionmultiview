@@ -1,5 +1,5 @@
 from collective.portlet.collectionmultiview import BaseRenderer
-from zope.app.pagetemplate.viewpagetemplatefile import ViewPageTemplateFile
+from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
 from zope.interface import Interface
 from zope import schema

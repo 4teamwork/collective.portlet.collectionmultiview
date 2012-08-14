@@ -4,7 +4,9 @@ Changelog
 2.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Import ViewPageTemplateFile from Products.Five to prevent an error if an
+  umlaut is in objects description.
+  [Julian Infanger]
 
 
 2.0.2 (2012-03-26)
